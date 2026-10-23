@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componente de Pestañas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="tabs-wrapper">
+        <div class="tabs-nav">
+            <div class="tab-indicator" id="indicator"></div>
+            
+            <button class="tab-button active" data-target="panel-1" data-index="0">Inicio</button>
+            <button class="tab-button" data-target="panel-2" data-index="1">Servicios</button>
+            <button class="tab-button" data-target="panel-3" data-index="2">Proyectos</button>
+            <button class="tab-button" data-target="panel-4" data-index="3">Contacto</button>
+        </div>
+
+        <div class="tabs-body">
+            <section class="tab-panel active" id="panel-1">
+                <h2>Bienvenido</h2>
+                <p>aqui esta todo donde quieras poner lo de Inicio</p>
+            </section>
+
+            <section class="tab-panel" id="panel-2">
+                <h2>Nuestros Servicios</h2>
+                <p>aqui tambien puedes ver los servicios que tenemos</p>
+            </section>
+
+            <section class="tab-panel" id="panel-3">
+                <h2>Proyectos Recientes</h2>
+                <p>proyectos que podemos documentar y exponer o mostrar avances</p>
+            </section>
+
+            <section class="tab-panel" id="panel-4">
+                <h2>Ponte en Contacto</h2>
+                <p>si tienes algunaa duda o quieres saber mas contactenos</p>
+            </section>
+        </div>
+    </main>
+
+    <script src="java.js"></script>
+</body>
+</html>
